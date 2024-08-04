@@ -22,10 +22,10 @@ This project aims to build an autonomous SLAM navigation robot using a Raspberry
 ### Components
 
 - **Raspberry Pi 4B**: The central processing unit running ROS2 Humble.
-- **Lidar**: Sensor for distance measurement and environment mapping.
+- **Rplidar A1M8 Lidar**: Sensor for distance measurement and environment mapping.
 - **Arduino**: Microcontroller for motor control and encoder data processing.
-- **Motors**: Two motors for robot movement, controlled via a motor driver.
-- **Motor Driver**: Electronic device that drives the motors based on Arduino signals.
+- **Encoder Motors**: Two motors for robot movement, controlled via a motor driver.
+- **L298 Motor Driver**: Electronic device that drives the motors based on Arduino signals.
 - **PC Command Centre**: For high-level control and monitoring.
 
 ### Hardware Diagram
