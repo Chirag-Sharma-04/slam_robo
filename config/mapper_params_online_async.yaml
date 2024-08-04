@@ -15,12 +15,12 @@ slam_toolbox:
     base_frame: base_footprint
     scan_topic: /scan
     use_map_saver: true
-    mode: localization #mapping
+    mode: localization #mapping #change the mode accordingly
 
     # if you'd like to immediately start continuing a map at a given pose
     # or at the dock, but they are mutually exclusive, if pose is given
     # will use pose
-    map_file_name: /home/jarvis/slamrobo_ws/src/slam_robo/worlds/my_map_serial
+    map_file_name: /home/jarvis/slamrobo_ws/mapp   #change according to your system
     # map_start_pose: [0.0, 0.0, 0.0]
     map_start_at_dock: true
 
