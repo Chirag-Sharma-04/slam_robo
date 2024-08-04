@@ -30,7 +30,7 @@ This project aims to build an autonomous SLAM navigation robot using a Raspberry
 
 ### Hardware Diagram
 
-![Hardware Diagram](block diagram.jpeg)
+![block diagram](https://github.com/user-attachments/assets/33b283b5-baea-43b9-8107-6f49b14c1c54)
 
 ## Software
 
