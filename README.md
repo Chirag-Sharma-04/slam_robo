@@ -42,6 +42,12 @@ This project aims to build an autonomous SLAM navigation robot using a Raspberry
 - **Arduino Code**: For motor control and encoder feedback.
 
 
+### Working 
+
+https://github.com/user-attachments/assets/b889edf1-8d70-474d-8a2f-062cfd3fdc9f
+
+https://github.com/user-attachments/assets/57495cd0-23d3-4e67-a990-98cff119ca28
+
 ### Prerequisites
 
 - Raspberry Pi 4B with Ubuntu 22.04 LTS installed
