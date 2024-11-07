@@ -1,23 +1,15 @@
 import os
-
 from ament_index_python.packages import get_package_share_directory
-
-
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-
 from launch_ros.actions import Node
 
 
 
 def generate_launch_description():
 
-
-    # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled
-    # !!! MAKE SURE YOU SET THE PACKAGE NAME CORRECTLY !!!
-
-    package_name='slam_robo' #<--- CHANGE ME
+    package_name='slam_robo' 
 
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
@@ -52,11 +44,17 @@ def generate_launch_description():
         arguments=["joint_broad"],
     )
 
+    rviz_node = Node(
+        package="rviz2",
+        executable="rviz2",
+        output="screen"
+    )
 
     # Launch them all!
     return LaunchDescription([
         rsp,
         gazebo,
+        rviz_node,
         spawn_entity,
         diff_drive_spawner,
         joint_broad_spawner
