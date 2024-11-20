@@ -83,11 +83,7 @@ We welcome contributions to this project! If you have suggestions or improvement
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Reference
-<<<<<<< HEAD
-=======
 
-- Josh Newans for getting started : https://www.youtube.com/watch?v=OWeLUSzxMsw&list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT
 - The Construct : https://www.youtube.com/watch?v=rZOxPGCn4QM&list=PL-6_gw-1x-od0hQmVsZQsGy5TvFgYoTPk&index=8
 - Robotics Back-End : https://www.youtube.com/watch?v=idQb2pB-h2Q&list=PL-6_gw-1x-od0hQmVsZQsGy5TvFgYoTPk&index=7
 - Udemy : https://www.udemy.com/course/self-driving-and-ros-2-learn-by-doing-map-localization/?couponCode=NVDIN35 (I have personally not done the course but have found the content to be helpful for new learners)
->>>>>>> a8d4b1adb1e64be2500e52dbf8352b81ff0ff9dd
