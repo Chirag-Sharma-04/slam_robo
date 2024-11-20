@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jarvis/moveit_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/jarvis/moveit_ws/build/moveit_configs_utils",
+        "/home/jarvis/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/jarvis/moveit_ws/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/jarvis/moveit_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/jarvis/moveit_ws/build/launch_param_builder",
+        "/home/jarvis/moveit_ws/install/launch_param_builder/lib/python3.10/site-packages",
+        "/home/jarvis/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jarvis/moveit_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/jarvis/moveit_ws/build/moveit_configs_utils",
+        "/home/jarvis/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/jarvis/moveit_ws/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/jarvis/moveit_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/jarvis/moveit_ws/build/launch_param_builder",
+        "/home/jarvis/moveit_ws/install/launch_param_builder/lib/python3.10/site-packages",
+        "/home/jarvis/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

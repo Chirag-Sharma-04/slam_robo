@@ -75,5 +75,3 @@ We welcome contributions to this project! If you have suggestions or improvement
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Reference
-
-You can refer this playlist by Josh Newans for getting started : hhttps://www.youtube.com/watch?v=OWeLUSzxMsw&list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT
