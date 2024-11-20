@@ -22,15 +22,15 @@ This project aims to build an autonomous SLAM navigation robot using a Raspberry
 ### Components
 
 - **Raspberry Pi 4B**: The central processing unit running ROS2 Humble.
-- **Lidar**: Sensor for distance measurement and environment mapping.
+- **Rplidar A1M8 Lidar**: Sensor for distance measurement and environment mapping.
 - **Arduino**: Microcontroller for motor control and encoder data processing.
-- **Motors**: Two motors for robot movement, controlled via a motor driver.
-- **Motor Driver**: Electronic device that drives the motors based on Arduino signals.
+- **Encoder Motors**: Two motors for robot movement, controlled via a motor driver.
+- **L298 Motor Driver**: Electronic device that drives the motors based on Arduino signals.
 - **PC Command Centre**: For high-level control and monitoring.
 
 ### Hardware Diagram
 
-![Hardware Diagram](block diagram.jpeg)
+![block diagram](https://github.com/user-attachments/assets/33b283b5-baea-43b9-8107-6f49b14c1c54)
 
 ## Software
 
@@ -41,6 +41,12 @@ This project aims to build an autonomous SLAM navigation robot using a Raspberry
 - **SLAM Toolbox**: For SLAM operations and navigation.
 - **Arduino Code**: For motor control and encoder feedback.
 
+
+## Working 
+
+https://github.com/user-attachments/assets/b889edf1-8d70-474d-8a2f-062cfd3fdc9f
+
+https://github.com/user-attachments/assets/57495cd0-23d3-4e67-a990-98cff119ca28
 
 ### Prerequisites
 
@@ -66,6 +72,8 @@ This project aims to build an autonomous SLAM navigation robot using a Raspberry
   ```
 - Be inside your ros2 workspace for the world to load
 
+https://github.com/user-attachments/assets/bb17e439-6686-43cf-a109-3dd77535f435
+
 ## Contributing
 
 We welcome contributions to this project! If you have suggestions or improvements, please fork the repository and create a pull request. For major changes, please open an issue first to discuss what you would like to change.
@@ -75,3 +83,11 @@ We welcome contributions to this project! If you have suggestions or improvement
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Reference
+<<<<<<< HEAD
+=======
+
+- Josh Newans for getting started : https://www.youtube.com/watch?v=OWeLUSzxMsw&list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT
+- The Construct : https://www.youtube.com/watch?v=rZOxPGCn4QM&list=PL-6_gw-1x-od0hQmVsZQsGy5TvFgYoTPk&index=8
+- Robotics Back-End : https://www.youtube.com/watch?v=idQb2pB-h2Q&list=PL-6_gw-1x-od0hQmVsZQsGy5TvFgYoTPk&index=7
+- Udemy : https://www.udemy.com/course/self-driving-and-ros-2-learn-by-doing-map-localization/?couponCode=NVDIN35 (I have personally not done the course but have found the content to be helpful for new learners)
+>>>>>>> a8d4b1adb1e64be2500e52dbf8352b81ff0ff9dd
