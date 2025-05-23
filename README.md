@@ -28,9 +28,9 @@ This project aims to build an autonomous SLAM navigation robot using a Raspberry
 - **L298 Motor Driver**: Electronic device that drives the motors based on Arduino signals.
 - **PC Command Centre**: For high-level control and monitoring.
 
-### Hardware Diagram
+## Block Diagram
 
-![block diagram](https://github.com/user-attachments/assets/032e6949-ee00-4465-b430-3639c5aac5fe)
+<img width="659" alt="Image" src="https://github.com/user-attachments/assets/032e6949-ee00-4465-b430-3639c5aac5fe" />
 
 ## Software
 
